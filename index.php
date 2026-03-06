@@ -117,17 +117,17 @@
             <input type="email" name="email" required>
             <label>Gender</label>
             <div class="gender">
-            <label><input type="radio" name="gender" value="Male" required> Male</label>
-            <label><input type="radio" name="gender" value="Female"> Female</label>
-            <label><input type="radio" name="gender" value="Other"> Other</label>
+                <label><input type="radio" name="gender" value="Male" required> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+                <label><input type="radio" name="gender" value="Other"> Other</label>
             </div>
             <label>Hobbies</label>
             <div class="hobbies">
-            <label><input type="checkbox" name="hobbies[]" value="Reading"> Reading</label>
-            <label><input type="checkbox" name="hobbies[]" value="Gaming"> Gaming</label>
-            <label><input type="checkbox" name="hobbies[]" value="Sports"> Sports</label>
-            <label><input type="checkbox" name="hobbies[]" value="Music"> Music</label>
-            <label><input type="checkbox" name="hobbies[]" value="Travel"> Travel</label>
+                <label><input type="checkbox" name="hobbies[]" value="Reading"> Reading</label>
+                <label><input type="checkbox" name="hobbies[]" value="Gaming"> Gaming</label>
+                <label><input type="checkbox" name="hobbies[]" value="Sports"> Sports</label>
+                <label><input type="checkbox" name="hobbies[]" value="Music"> Music</label>
+                <label><input type="checkbox" name="hobbies[]" value="Travel"> Travel</label>
             </div>
             <label>Short Biography</label>
             <textarea name="bio" rows="3"></textarea>
