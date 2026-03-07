@@ -15,7 +15,11 @@
     $tempName = $_FILES['profileImage']['tmp_name'];
     $folder = "uploads/".$imageName;
 
-move_uploaded_file($tempName,$folder);
+    if(!is_dir("uploads")){
+        mkdir("uploads", 0777, true);
+    }
+    
+    move_uploaded_file($tempName,$folder);
 ?>
 
 <!DOCTYPE html>
